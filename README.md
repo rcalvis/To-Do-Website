@@ -12,6 +12,7 @@ Keep a more detailed description of each item as well as related links and notes
 - Add new items to to-do list
 - Check off items to mark completed
 - Un-check items to mark uncompleted
+- Delete items from checklist
 
 ### Future Work
 - User state persistence
@@ -21,4 +22,4 @@ Keep a more detailed description of each item as well as related links and notes
 - Different themes
 
 ## Author
-Rachel Alvis - [GitHub](https://www.github.com/rcalvis)
+Rachel Alvis - [GitHub](https://www.github.com/rcalvis), [LinkedIn](https://www.linkedin.com/in/rachelalvis)
