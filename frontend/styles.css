@@ -94,6 +94,13 @@ input[type="checkbox"] {
 .todo-text {
     position: relative;
     transition: color 0.3s ease;
+    flex: 1;
+}
+
+.todo-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .todo-text::after {
@@ -113,4 +120,21 @@ input[type="checkbox"] {
 
 .todo-text.completed::after {
     width: 100%;
+}
+
+.delete-btn {
+    background-color: #ff7070;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease,
+                transform 0.2s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff5c5c;
+    transform: translateY(-1px);
 }
